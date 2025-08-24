@@ -42,33 +42,10 @@ public abstract class User {
     public boolean validateCredentials(String id, String password) {
         return this.id != null && this.password != null && this.id.equals(id) && this.password.equals(password);
     }
-
-    public abstract String getTipoUsuario();
-
-    //Getters y Setters
-    public String getId() {
-        return id;
-    }
-    public void setId(String id){
-        this.id = id;
-    }
-    public String getPassword() {
-        return password;
-    }
-    public void setPassword(String password) {
-        this.password = password;
-    }
-    public String getName() {
-        return name;
-    }
-    public void setName(String name) {
-        this.name = name;
-    }
-    @Override
-    public String toString() {
-        return "User{" +
-                "id='" + id + '\'' +
-                ", name='" + name + '\'' +
-                '}';
-    }
 }
+
+    /**
+     * Cambia la contraseña del usuario
+     * @param newPassword Nueva contraseña a establecer.
+     */
+
