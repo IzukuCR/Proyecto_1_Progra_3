@@ -1,7 +1,6 @@
 package personas;
 
 import personas.presentation.personas.Model;
-import personas.presentation.personas.View;
 import personas.presentation.personas.Controller;
 
 import javax.swing.*;
